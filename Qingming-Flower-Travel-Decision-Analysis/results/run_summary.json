@@ -1,0 +1,32 @@
+{
+  "weather_rows": 862,
+  "weather_cities": 6,
+  "phenology_rows": 50,
+  "flowers": [
+    "杏花",
+    "杜鹃花",
+    "樱花",
+    "油菜花",
+    "牡丹"
+  ],
+  "bloom_prediction_rows": 5,
+  "overlap_rows": 7,
+  "outputs": [
+    "results\\build.log",
+    "results\\figures\\holiday_bloom_overlap.png",
+    "results\\figures\\phenology_start_trends.png",
+    "results\\figures\\weather_city_comparison.png",
+    "results\\run_summary.json",
+    "results\\城市清明天气概览.csv",
+    "results\\清明天气逐时整理.csv",
+    "results\\清明花期重叠分析_区域映射假设.csv",
+    "results\\花期历史数据整理.csv",
+    "results\\花期滚动验证.csv",
+    "results\\花期趋势预测_探索性.csv"
+  ],
+  "notes": [
+    "Weather rain-code share is a raw-code proxy, not a validated drizzle-event classifier.",
+    "Phenology predictions are exploratory year-trend baselines from short series.",
+    "City-to-region mapping in the overlap table is an explicit assumption; it is not city-specific observed phenology."
+  ]
+}

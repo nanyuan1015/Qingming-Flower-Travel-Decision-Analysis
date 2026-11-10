@@ -1,0 +1,6 @@
+﻿flower,prediction_year,predicted_start_date_trend,predicted_start_doy_trend,predicted_duration_trend_days,training_years,method,predicted_duration_rf_comparison_days
+杏花,2026,2026-04-12,102.4,88.0,11,linear trend on year; exploratory baseline,85.78
+杜鹃花,2026,2026-03-25,84.22,23.75,10,linear trend on year; exploratory baseline,24.4
+樱花,2026,2026-02-04,34.9,30.59,10,linear trend on year; exploratory baseline,32.7
+油菜花,2026,2026-03-03,61.98,184.73,10,linear trend on year; exploratory baseline,182.84
+牡丹,2026,2026-03-29,88.26,75.37,9,linear trend on year; exploratory baseline,73.41
